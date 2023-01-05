@@ -180,7 +180,7 @@
         background: var(--color-grey5);
 
         .control {
-            margin: .3rem 1rem;
+            margin: .3rem .8rem;
         }
     }
     .blogs{
@@ -194,7 +194,7 @@
 
 }
 @-o-viewport {
-    width: extend-to-zoom 1000px;
+    width: extend-to-zoom 500px;
     min-zoom: 0.25;
     max-zoom: 5;
 }

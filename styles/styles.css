@@ -868,7 +868,7 @@ section {
     background: var(--color-grey5);
   }
   .controls .control {
-    margin: 0.3rem 1rem;
+    margin: 0.3rem 0.8rem;
   }
   .blogs {
     grid-template-columns: 1fr;
@@ -879,7 +879,7 @@ section {
   }
 }
 @-o-viewport {
-  width: extend-to-zoom 1000px;
+  width: extend-to-zoom 500px;
   min-zoom: 0.25;
   max-zoom: 5;
 }/*# sourceMappingURL=styles.css.map */
