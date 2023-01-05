@@ -882,6 +882,20 @@ section {
   width: extend-to-zoom 970px;
   min-zoom: 0.25;
   max-zoom: 5;
+  .contact-content-con {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  .contact-content-con .right-contact.i-c-2 {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact.i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
   .section {
     padding: 7rem 6rem;
   }
@@ -898,11 +912,25 @@ section {
   .controls .control {
     margin: 0.3rem 0.8rem;
   }
-  .blogs {
+  .about-container {
     grid-template-columns: 1fr;
-    padding-bottom: 6rem;
+  }
+  .about-container .right-about {
+    padding-top: 2.5rem;
   }
   .portfolios {
     grid-template-columns: 1fr;
+  }
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+  .main-title h2 {
+    font-size: 4rem;
+  }
+  .main-title h2 span {
+    font-size: 4rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 4rem;
   }
 }/*# sourceMappingURL=styles.css.map */
