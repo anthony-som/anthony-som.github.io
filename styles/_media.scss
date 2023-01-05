@@ -164,6 +164,7 @@
 }
 
 @media screen and (max-width: 970px) {
+    
     .section{
         padding: 7rem 6rem;
     }
@@ -191,4 +192,9 @@
         grid-template-columns: 1fr;
     }
 
+}
+@-o-viewport {
+    width: extend-to-zoom 980px;
+    min-zoom: 0.25;
+    max-zoom: 5;
 }
