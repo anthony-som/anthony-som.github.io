@@ -879,7 +879,30 @@ section {
   }
 }
 @-o-viewport {
-  width: extend-to-zoom 500px;
+  width: extend-to-zoom 970px;
   min-zoom: 0.25;
   max-zoom: 5;
+  .section {
+    padding: 7rem 6rem;
+  }
+  .controls {
+    top: auto;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: var(--color-grey5);
+  }
+  .controls .control {
+    margin: 0.3rem 0.8rem;
+  }
+  .blogs {
+    grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
+  .portfolios {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=styles.css.map */
