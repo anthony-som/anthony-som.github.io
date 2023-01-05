@@ -925,12 +925,12 @@ section {
     grid-template-columns: 1fr;
   }
   .main-title h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .main-title h2 span {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .main-title h2 .bg-text {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=styles.css.map */
