@@ -101,7 +101,7 @@
         h2{
             font-size: 2rem;
             span{
-                font-size: 2rem;
+                font-size: 1rem !important;
             }
             .bg-text{
                 font-size: 2rem;
@@ -191,21 +191,14 @@
     .portfolios{
         grid-template-columns: 1fr;
     }
+    
 
 }
+
+
 @-o-viewport {
     width: extend-to-zoom 590px;
     min-zoom: 0.25;
     max-zoom: 5;
-    .main-title{
-        h2{
-            font-size: 2rem;
-            span{
-                font-size: 2rem;
-            }
-            .bg-text{
-                font-size: 0.5rem;
-            }
-        }
-    }
+   
 }

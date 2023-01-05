@@ -802,7 +802,7 @@ section {
     font-size: 2rem;
   }
   .main-title h2 span {
-    font-size: 2rem;
+    font-size: 1rem !important;
   }
   .main-title h2 .bg-text {
     font-size: 2rem;
@@ -882,13 +882,4 @@ section {
   width: extend-to-zoom 590px;
   min-zoom: 0.25;
   max-zoom: 5;
-  .main-title h2 {
-    font-size: 2rem;
-  }
-  .main-title h2 span {
-    font-size: 2rem;
-  }
-  .main-title h2 .bg-text {
-    font-size: 0.5rem;
-  }
 }/*# sourceMappingURL=styles.css.map */
